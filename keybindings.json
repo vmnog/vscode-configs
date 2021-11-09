@@ -1,0 +1,30 @@
+// Place your key bindings in this file to override the defaults
+[
+  {"key": "ctrl+shift+space","command": "macros.jumpLineDown"},
+  {"key": "ctrl+shift+j","command": "macros.cursorDown"},
+  {"key": "ctrl+shift+h","command": "macros.cursorLeft"},
+  {"key": "ctrl+shift+l","command": "macros.cursorRight"},
+  {"key": "ctrl+shift+k","command": "macros.cursorUp"},
+  {"key": "ctrl+shift+9","command": "cursorWordEndRight"},
+  {"key": "ctrl+shift+8", "command": "cursorWordEndLeft"},
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "down",
+    "command": "-selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+    {
+    "key": "ctrl+tab",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "up",
+    "command": "-selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  }
+]
