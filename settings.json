@@ -1,0 +1,88 @@
+{
+  "workbench.colorTheme": "Remedy - Dark (Straight)",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "expand",
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "extensions.ignoreRecommendations": true,
+  "editor.inlineSuggest.enabled": true,
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes",
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+
+  "editor.rulers": [120],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  "git.suggestSmartCommit": false,
+  "diffEditor.maxComputationTime": 0,
+  "workbench.startupEditor": "none",
+  "macros": {
+    "jumpLineDown": [
+      "cursorEnd",
+      { "command": "type", "args": { "text": "\n" } }
+    ],
+    "cursorDown": ["cursorDown"],
+    "cursorRight": ["cursorRight"],
+    "cursorLeft": ["cursorLeft"],
+    "cursorUp": ["cursorUp"]
+  },
+  "window.menuBarVisibility": "compact",
+  "editor.renderWhitespace": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "material-icon-theme.activeIconPack": "none"
+}
