@@ -12,6 +12,15 @@
   "terminal.integrated.fontSize": 14,
   "extensions.ignoreRecommendations": true,
   "editor.inlineSuggest.enabled": true,
+  "window.menuBarVisibility": "compact",
+  "editor.renderWhitespace": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.activeIconPack": "none",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "git.suggestSmartCommit": false,
+  "diffEditor.maxComputationTime": 0,
+  "workbench.startupEditor": "none",
   "material-icon-theme.folders.associations": {
     "infra": "app",
     "entities": "class",
@@ -35,7 +44,7 @@
     "mappers": "meta",
     "_shared": "shared",
     "eslint-config": "tools",
-    "kube": "kubernetes",
+    "kube": "kubernetes"
   },
 
   "material-icon-theme.files.associations": {
@@ -66,9 +75,6 @@
     "editor.defaultFormatter": "Prisma.prisma",
     "editor.formatOnSave": true
   },
-  "git.suggestSmartCommit": false,
-  "diffEditor.maxComputationTime": 0,
-  "workbench.startupEditor": "none",
   "macros": {
     "jumpLineDown": [
       "cursorEnd",
@@ -79,10 +85,5 @@
     "cursorLeft": ["cursorLeft"],
     "cursorUp": ["cursorUp"]
   },
-  "window.menuBarVisibility": "compact",
-  "editor.renderWhitespace": "none",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 1,
-  "material-icon-theme.activeIconPack": "none"
+  "editor.linkedEditing": true
 }
