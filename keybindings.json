@@ -7,22 +7,56 @@
   { "key": "ctrl+shift+k", "command": "macros.cursorUp" },
   { "key": "ctrl+shift+alt+l", "command": "cursorWordEndRight" },
   { "key": "ctrl+shift+alt+h", "command": "cursorWordEndLeft" },
-  { "key": "ctrl+shift+alt+k","command": "cursorMove","args": {"to": "up","by": "line","value": 10},"when": "editorTextFocus"},
-  { "key": "ctrl+shift+alt+j", "command": "cursorMove","args": {"to": "down","by": "line","value": 10},"when": "editorTextFocus"},
-  {"key": "tab","command": "selectNextSuggestion","when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"},
-  {"key": "down","command": "-selectNextSuggestion","when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"},
-  {"key": "ctrl+tab","command": "selectPrevSuggestion","when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"},
-  {"key": "up",    "command": "-selectPrevSuggestion","when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"},
-  {"key": "tab","command": "workbench.action.quickOpenSelectNext","when": "inQuickOpen"},
-  {"key": "ctrl+tab","command": "workbench.action.quickOpenSelectPrevious","when": "inQuickOpen"},
   {
-    "key": "ctrl+shift+]",
+    "key": "ctrl+shift+alt+k",
+    "command": "cursorMove",
+    "args": { "to": "up", "by": "line", "value": 5 },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+j",
+    "command": "cursorMove",
+    "args": { "to": "down", "by": "line", "value": 5 },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "down",
+    "command": "-selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "up",
+    "command": "-selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "tab",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+shift+o",
     "command": "workbench.action.moveEditorToNextGroup"
   },
   {
-    "key": "ctrl+shift+[", 
-    "command": "workbench.action.navigateEditorGroups" 
-  },  
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.navigateEditorGroups"
+  },
   {
     "key": "space",
     "command": "workbench.action.quickOpenNavigateNextInViewPicker",
@@ -37,5 +71,23 @@
     "key": "ctrl+shift+alt+down",
     "command": "-editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+space",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+alt+[Minus]",
+    "command": "workbench.action.decreaseViewSize"
+  },
+  {
+    "key": "ctrl+alt+=",
+    "command": "workbench.action.increaseViewSize"
   }
 ]
