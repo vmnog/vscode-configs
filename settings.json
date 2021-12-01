@@ -2,7 +2,8 @@
   "workbench.colorTheme": "Remedy - Dark (Straight)",
   "workbench.iconTheme": "material-icon-theme",
   "editor.formatOnSave": true,
-  "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "block",
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "'Fira Code'",
@@ -85,5 +86,6 @@
     "cursorLeft": ["cursorLeft"],
     "cursorUp": ["cursorUp"]
   },
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "window.zoomLevel": -1
 }
